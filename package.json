@@ -1,0 +1,16 @@
+{
+  "name": "omira-ai-agent",
+  "version": "1.0.0",
+  "description": "AI Agent Omira with Telegram Bot and Groq API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-telegram-bot-api": "^0.64.0",
+    "openai": "^4.28.0",
+    "ytdl-core": "^4.11.5"
+  }
+}
